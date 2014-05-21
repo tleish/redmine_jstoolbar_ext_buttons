@@ -16,7 +16,7 @@ These buttons are for convenience for inserting text.
 * Insert Javascript Syntax Formatting
 * Textile Quick Reference
 
-![Buttons](https://raw.githubusercontent.com/tleish/redmine_jstoolbar_ext_buttons/assets/images/screenshot.png)
+![Buttons](https://raw.githubusercontent.com/tleish/redmine_jstoolbar_ext_buttons/master/assets/images/screenshot.png)
 
 ### Button Customization
 To add/remove your own buttons to the list, update the following files:
