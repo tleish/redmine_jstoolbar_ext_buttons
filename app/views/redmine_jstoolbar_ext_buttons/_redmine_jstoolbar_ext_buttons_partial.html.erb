@@ -1,0 +1,15 @@
+<%
+   if content_for(:header_tags).include? '/jstoolbar/'
+     unless content_for(:header_tags).include? 'redmine_jstoolbar_ext.js'
+       content_for :header_tags do
+         javascript_include_tag('redmine_jstoolbar_ext.js', plugin: 'redmine_jstoolbar_ext') + "\n" +
+         stylesheet_link_tag('redmine_jstoolbar_ext.css', plugin: 'redmine_jstoolbar_ext') + "\n"
+       end
+     end
+
+     content_for :header_tags do
+        javascript_include_tag('redmine_jstoolbar_ext_buttons.js', plugin: 'redmine_jstoolbar_ext_buttons') + "\n" +
+        stylesheet_link_tag('redmine_jstoolbar_ext_buttons.css', plugin: 'redmine_jstoolbar_ext_buttons') + "\n"
+     end
+   end
+-%>
