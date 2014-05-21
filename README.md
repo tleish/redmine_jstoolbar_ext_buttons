@@ -4,7 +4,7 @@
 
 The Redmine jsToolbar Buttons Extension adds some additional buttons to the [Redmine](http://www.redmine.org/) wiki and text editor toolbar.  
 
-# Requirements
+## Requirements
 
 This plugin requires the [Redmine jsToolbar Ext plugin](https://github.com/tleish/redmine_jstoolbar_ext) to also be installed.
 
