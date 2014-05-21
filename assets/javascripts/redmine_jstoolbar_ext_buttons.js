@@ -1,6 +1,8 @@
 (function () {
   if(typeof RedmineWikiToolbarExt === 'undefined') return false;
 
+  var web_root = RedmineWikiToolbarExt.Paths.web_root();
+
   var buttons = [
     // Horizontal Rule
     {
@@ -49,7 +51,7 @@
     {
       title: 'Textile Quick Reference', after: 'help',
       fn: { wiki: function () {
-        window.open('http://redcloth.org/hobix.com/textile/quick.html', '', 'resizable=yes, location=no, width=600, height=640, menubar=no, status=no, scrollbars=yes')
+        window.open(web_root + 'redmine_jstoolbar_ext_buttons/help/textile_quick.html', '', 'resizable=yes, location=no, width=500, height=640, menubar=no, status=no, scrollbars=yes')
       }}
     }
   ];
