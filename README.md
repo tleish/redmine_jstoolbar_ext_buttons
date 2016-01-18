@@ -47,6 +47,7 @@ For other wiki function examples, look at the source code for the jsToolbar in t
 ## Installation
 ```
 $ cd redmine/plugins
+$ git clone https://github.com/tleish/redmine_jstoolbar_ext
 $ git clone https://github.com/tleish/redmine_jstoolbar_ext_buttons
 ```
 
