@@ -14,7 +14,6 @@ These buttons are for convenience for inserting text.
 * Insert Link Title
 * Insert Ruby Syntax Formatting
 * Insert Javascript Syntax Formatting
-* Textile Quick Reference
 
 ![Buttons](https://raw.githubusercontent.com/tleish/redmine_jstoolbar_ext_buttons/master/assets/images/screenshot.png)
 

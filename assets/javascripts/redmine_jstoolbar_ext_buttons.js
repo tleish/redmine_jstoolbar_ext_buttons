@@ -45,14 +45,6 @@
           return str;
         })
       }}
-    },
-
-    // Textile Quick Reference
-    {
-      title: 'Textile Quick Reference', after: 'help',
-      fn: { wiki: function () {
-        window.open(web_root + 'redmine_jstoolbar_ext_buttons/help/textile_quick.html', '', 'resizable=yes, location=no, width=500, height=640, menubar=no, status=no, scrollbars=yes')
-      }}
     }
   ];
 
