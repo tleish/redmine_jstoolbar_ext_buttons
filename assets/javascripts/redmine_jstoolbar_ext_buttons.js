@@ -14,7 +14,16 @@
         });
       }}
     },
-
+  
+    // Collapse
+    {
+      title: 'Collapse', after: 'unbq',
+      fn: { wiki: function () {
+        this.encloseLineSelection('{{collapse(View details...)\n', '\n}}')
+      }}
+    },
+  
+  
     // Ruby
     {
       title: 'Ruby', after: 'pre',
